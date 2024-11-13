@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: STT_DemoProject
+  gitServerName: STT Github
+  gitUrl: https://github.com/staillansag
+  gitUsername: staillansag
+  gitBranch: main
