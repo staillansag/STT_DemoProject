@@ -8,11 +8,7 @@ packages:
   gitUsername: staillansag
   gitBranch: main
 services:
-- serviceName: project.stt_demo.integrations:TestFlow
+- serviceName: project.stt_demo.integrations:sayhello
   packages:
   - name: STT_DemoProject
     version: "1.0"
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.1969
