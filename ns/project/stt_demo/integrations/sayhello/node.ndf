@@ -97,9 +97,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">stephane.tailland@ibm.com</value>
-    <value name="createdDate">1731669786405</value>
-    <value name="lastModifiedDate">1731669786405</value>
+    <value name="lastModifiedBy">stephane.tailland@ibm.com</value>
+    <value name="lastModifiedDate">1731921278676</value>
     <value name="displayName">sayhello</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -120,6 +119,7 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
       </record>
       <record name="/0/0" javaclass="com.wm.util.Values">
         <value name="itemType">SERVICES</value>
@@ -129,12 +129,10 @@
           <value name="serviceName">pub.date:getCurrentDate</value>
           <value name="transformerSupport">true</value>
         </record>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupName">date</value>
-          <value name="groupDisplayName">Date</value>
-        </record>
       </record>
       <null name="/0/1"/>
+      <record name="/0/2" javaclass="com.wm.util.Values">
+      </record>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
